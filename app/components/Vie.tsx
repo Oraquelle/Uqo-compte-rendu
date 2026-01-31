@@ -9,7 +9,7 @@ import Moon from "./Moon";
 import { Allura } from "next/font/google";
 import Coin from "./Coin";
 
-export const allura = Allura({
+const allura = Allura({
   subsets: ["latin"],
   weight: ["400"],
 });

@@ -5,7 +5,7 @@ import Audiowave from "./Audiowave";
 import Image from "next/image";
 import {Allura} from "next/font/google";
 
-export const allura = Allura({
+const allura = Allura({
   subsets: ["latin"],
   weight: ["400"],
 });

@@ -1,6 +1,11 @@
 import Image from "next/image";
-import { allura } from "@/app/layout";
 import Audiowave from "./Audiowave";
+import { Allura } from "next/font/google";
+
+const allura = Allura({
+  subsets: ["latin"],
+  weight: ["400"],
+});
 
 export default function Intro() {
   return (

@@ -5,12 +5,12 @@ import Menu from "./components/Menu";
 
 import { Playfair_Display } from "next/font/google";
 
-export const allura = Allura({
+const allura = Allura({
   subsets: ["latin"],
   weight: ["400"],
 });
 
-export const playfair = Playfair_Display({
+const playfair = Playfair_Display({
   subsets: ["latin"],
   weight: ["400", "600", "700"],
 });
